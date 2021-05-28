@@ -1,0 +1,165 @@
+local guideandrinos = Instance.new("ScreenGui")
+local Button = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local InfinityYield = Instance.new("TextButton")
+local Shadow_2 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+
+--Properties:
+
+guideandrinos.Name = "gui de andrinos"
+guideandrinos.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+guideandrinos.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Button.Name = "Button"
+Button.Parent = guideandrinos
+Button.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.00937500596, 0, 0.364244759, 0)
+Button.Size = UDim2.new(0, 120, 0, 39)
+Button.ZIndex = 2
+Button.Font = Enum.Font.GothamSemibold
+Button.Text = ""
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+Shadow.Name = "Shadow"
+Shadow.Parent = Button
+Shadow.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow.BorderSizePixel = 0
+Shadow.Size = UDim2.new(1, 0, 1, 4)
+
+TextLabel.Parent = Button
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(1, -20, 1, -20)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.Cartoon
+TextLabel.Text = "Abrir"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Main.Name = "Main"
+Main.Parent = guideandrinos
+Main.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+Main.Position = UDim2.new(0.321875006, 0, 0.214149147, 0)
+Main.Size = UDim2.new(0, 399, 0, 299)
+Main.Visible = false
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.Position = UDim2.new(-0.0197583959, 0, 0.0526484102, 0)
+TextLabel_2.Size = UDim2.new(0, 399, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Andrinhos Gui"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+TextButton.Position = UDim2.new(0.902255654, 0, 0.0158591121, 0)
+TextButton.Size = UDim2.new(0, 39, 0, 32)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+InfinityYield.Name = "Infinity Yield"
+InfinityYield.Parent = Main
+InfinityYield.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+InfinityYield.BorderSizePixel = 0
+InfinityYield.Position = UDim2.new(0.0194000769, 0, 0.250532359, 0)
+InfinityYield.Size = UDim2.new(0, 120, 0, 49)
+InfinityYield.ZIndex = 2
+InfinityYield.Font = Enum.Font.GothamSemibold
+InfinityYield.Text = ""
+InfinityYield.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfinityYield.TextScaled = true
+InfinityYield.TextSize = 14.000
+InfinityYield.TextWrapped = true
+
+Shadow_2.Name = "Shadow"
+Shadow_2.Parent = InfinityYield
+Shadow_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+Shadow_2.BorderSizePixel = 0
+Shadow_2.Size = UDim2.new(1, 0, 1.01514959, 4)
+
+TextLabel_3.Parent = InfinityYield
+TextLabel_3.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.470833331, 0, 0.509419024, 0)
+TextLabel_3.Size = UDim2.new(1.22499967, -20, 1, -20)
+TextLabel_3.ZIndex = 2
+TextLabel_3.Font = Enum.Font.Cartoon
+TextLabel_3.Text = "Infinity Yield"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+TextLabel_3.TextWrapped = true
+
+Frame.Parent = Main
+Frame.BackgroundColor3 = Color3.fromRGB(59, 59, 59)
+Frame.Position = UDim2.new(0.00107297301, 0, 0.223287314, 0)
+Frame.Size = UDim2.new(0, 398, 0, 232)
+
+-- Scripts:
+
+local function FQHGEF_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Main.Visible = true
+	end)
+	
+end
+coroutine.wrap(FQHGEF_fake_script)()
+local function XASQXL_fake_script() -- guideandrinos.LocalScript 
+	local script = Instance.new('LocalScript', guideandrinos)
+
+	frame = script.Parent.{Main} -- Take out {}s, and put name of frame
+	frame.Draggable = true
+	frame.Active = true
+	frame.Selectable = true
+	
+end
+coroutine.wrap(XASQXL_fake_script)()
+local function NVQS_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect (function()
+		script.Parent.Parent.Visible = false
+	
+	end)
+end
+coroutine.wrap(NVQS_fake_script)()
+local function STDR_fake_script() -- InfinityYield.LocalScript 
+	local script = Instance.new('LocalScript', InfinityYield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		print("Carregando")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",true))()
+	end)
+	
+end
+coroutine.wrap(STDR_fake_script)()
